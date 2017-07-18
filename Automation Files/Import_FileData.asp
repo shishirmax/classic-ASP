@@ -118,10 +118,6 @@ Loginid = Session("LoginID")
 	Set ObjRpt = Server.CreateObject("PTFMInvoicing.DBHelper")
 
 
-	Dim Line
-	strFindText = Chr(34) & Chr(34)
-	Line = 1
-
 	Do Until objFile.AtEndOfStream
 		splitLine = split(objFile.ReadLine,",")
     if ubound(splitLine)>=0 Then
