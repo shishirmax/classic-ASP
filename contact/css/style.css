@@ -1,0 +1,61 @@
+body{
+	font-family: 'PT Serif', serif;
+}
+table {
+			color: #333;
+			font-family: Helvetica, Arial, sans-serif;
+			border-collapse: collapse;
+			border-spacing: 0;
+		}
+#table_Contact{
+			width: 400px;
+}
+#table_view{
+			width: 800px;
+}
+td,th{
+			border:1px solid #DBD4D3;
+		}
+#tbl{
+			padding-top: 20px;
+		}
+a{
+			text-decoration: none;
+			color: #639FAB;
+		}
+a:visited{
+			text-decoration: none;
+		}
+#a_edit{
+			font-weight: bold;
+		}
+#a_edit:hover{
+			color:#DB5375;
+		}
+a:hover{
+			font-weight: bold;
+		}
+#name_email{
+			color: #2D3E5B;
+		}
+#tr-head{
+			background-color: #59808F;
+			color: #F6F8F6;
+		}
+#btn{
+			background-color: #59808F;
+			color: white;
+			text-decoration: none;
+			width: 80px;
+			border-color: #aaa;
+		}
+#tr_even{
+			background-color: #E8F1F2;
+			font-weight: bold;
+		}
+#tbtn{
+			text-align: center;
+		}
+#inpt{
+			width: 100%;
+		}
